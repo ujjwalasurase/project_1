@@ -1,0 +1,2145 @@
+body
+{
+    background-color: #F8F2E4;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Home Page Section open */
+
+/* header section  */
+
+#header_home
+{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+    background-color: #6E2A36;
+    color: #F2654A;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-clip: padding-box ;
+
+}
+
+/* header section */
+
+/* https://fontawesome.com/download */
+/* for the web & downlod*/
+/* extract all */
+
+.navigation_main{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background-color: #F8F2E4;
+    z-index: 3;
+    
+}
+ .navi_child1 ,.navi_child2  {
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+ .navi_child1 img{
+    width: 40%;
+    height: auto;
+ }
+ .navi {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+ }
+ .navi ul{
+    list-style-type: none;
+    font-weight: bold;
+ }
+ .navi ul li{
+    float: left;
+ }
+ .navi li a{
+    text-decoration: none;
+    margin-right: 26px;
+ }
+ .navi li:hover a{
+    color: #F2634D;
+ }
+ .navi1 ,.navi2{
+    width: 100%;
+    height: auto;
+    position: relative;
+ }
+ .navi2 i{
+  margin-left: 30px;
+  padding-top: 25px;
+ }
+ .navi_top_bar1{
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #75973A;
+    box-sizing: border-box;
+    position: absolute;
+    right:201px;
+    top: 11px;
+    text-align: center;
+ }
+
+ .navi_top_bar2{
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #75973A;
+    box-sizing: border-box;
+    position: absolute;
+    left: 139px;
+    top: 11px;
+    text-align: center;
+ }
+
+
+/* navigation bar section */
+
+@media screen and (max-width:767px)
+{ 
+    body{
+        flex-direction: column;
+    }
+    #header_home
+    {
+        display: none;
+    }
+    .navi_child2
+    {
+        display: none;
+    }
+    .navi_child1 img
+    {
+        display: none;
+    }
+    .navi{
+        width: 100%;
+        font-size: small;
+    }
+    .navigation_main
+    {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+}
+
+/* navigation bar */
+
+/* main content section */
+
+#main_content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+.main_content1
+{
+    height: 550px;
+    width: 100%;
+    background-color: #F0CFAE;
+    color: #F2654A;
+    font-size: 25px;
+    display: inline-block;
+    padding:60px;
+    box-sizing: border-box;
+
+}
+.main_content2
+{
+    height: 550px;
+    width: 100%;
+    box-sizing: border-box;
+    background: url(./dietshop-pic2.png);
+    background-size: cover;
+
+}
+
+.main_content1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #75973A;
+    color: rgb(187, 238, 142);
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.butn:hover
+{
+    opacity: 0.8;
+}
+.all_diet{
+    display: block;
+    margin-top: 40px;
+}
+.main_content3{
+    background-color:#F4E0C9 ;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_span{
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    color: #F2654A;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:767px)
+{
+    #main_content
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .main_content1
+    {   font-size: small;
+        flex-direction: column;
+    }
+}
+
+/* main content */
+
+/* product content section */
+
+#product_header
+{
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    color: #6E2A36;
+    margin-top: 90px;
+    background-clip: padding-box;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.product
+{
+    width: 100%;
+    height: auto;
+    background-color: #F9F2E4;
+    display: flex;
+    justify-content: space-around;
+}
+.p_outer
+{
+    width:370px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    background-color: rgb(240,229,212);
+    overflow: hidden;
+    position: relative;
+    
+}
+.product1,.product2
+{
+    width: 370px;
+    height: auto;
+    background-color: #F0E5D4;
+    overflow: hidden;
+
+}
+
+.product1 img:hover
+{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.product1 img
+{
+    width: 370px;
+    height: 370px;
+    transition: transform .2s;
+}
+.discount_box1
+{
+    width: 35px;
+    height: 15px;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+    top:20px;
+    margin-left: 15px;
+    background-color: #75973A;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+.b_box1
+{
+    color: #6E2A36;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.product_dollar
+{
+    color: #75973A;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.browse
+{
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    color: #6E2A36;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-clip: padding-box;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.butn1
+{
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 70px;
+    font-size: 20px;
+    color: #F2654A;
+    background-color: #F4E0C9;
+    cursor: pointer;
+}
+.butn1:hover
+{
+    background-color: rgb(245,215,183);
+}
+
+
+/* product content */
+
+@media screen and (max-width:767px)
+{    
+    .product
+    {
+      flex-direction:column;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+
+    }
+    .p_outer
+    {
+        flex-direction:column;
+        height:auto;
+    }
+    .product1
+    {
+        flex-direction: column;
+        height: auto;
+
+    }
+    .product1 img
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }   
+
+    .b_box1
+    {
+        font-size: 15px;
+
+    }
+    .product_dollar
+    {
+        font-size: 15px;
+    }
+    .browse{
+        font-size:20px;
+    }
+    .butn1{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}
+/* service content section */
+
+.service_page
+{
+    width: 100%;
+    height:auto;
+    background-color: #F8F2E4;
+    box-sizing: border-box;
+}
+.service_heading
+{
+    width: auto;
+    height: auto;
+    color:#6E2A36 ;
+    background-color: #F8F2E4;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    /* position: relative;
+    z-index: 0; */
+    box-sizing: border-box;
+
+}
+
+.top_quality1
+{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F2E4; 
+}
+.quality1
+{
+    width: 370px;
+    height: 370px;
+    background-color: #F9F2E4;
+
+
+}
+.quality1 img
+{
+    width: 150px;
+    height: 150px;
+}
+.quality3
+{
+   width:370px;
+   height: auto;
+}
+
+.quality2_b1
+{
+    color: #F2654A;
+    font-size: 19px;
+
+}
+.quality2_b2
+{
+ color: #6E2A36;
+ font-size: 19px;
+
+}
+ 
+.service_heading1 , .service_heading2
+{
+    
+    font-size: 30px;  
+}
+
+@media screen and (max-width:767px)
+{
+    .service_page
+    {
+        flex-direction: column;
+    }
+    .service_heading
+    {   
+        width: 100%;
+    }
+    .service_heading1
+    {
+        font-size: 25px;
+    }
+    .service_heading2
+    {
+        font-size: 25px;
+    }
+    .top_quality1
+    {
+        flex-direction:column;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+    }
+    .top_quality1 img{
+        margin-left: 10px;
+    }
+
+    
+    .quality2 img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .quality3
+{
+    text-align: center;
+}
+}
+
+/* service content section */
+
+
+/* <!-- our dishes content section --> */
+
+.our_dishes_content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    padding: 20px;
+}
+.our_dishes_content_img
+{
+    width:100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.our_dishes_content_img img{
+    width:100%;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.our_dishes_content_para
+{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #F2634D;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    position: relative; 
+     z-index: 0; 
+     border: 1px solid red;
+}
+.our_dishes_content_para_child
+{
+    width:510px;
+    height: auto;
+    margin: 60px;
+    margin-top: 130px;
+    color: white;
+}
+.our_dishes_content_img2
+{
+    width: 180px;
+    height: auto;
+}
+.our_dishes_content_button
+{
+    width: 130px;
+    height: 45px;
+    color: #FFD4E8;
+    background-color: #6E2A36;
+    border-radius: 50px;
+    font-size: 19px;
+    border: none;
+    position: absolute;
+    z-index: 1;
+}
+@media screen and (max-width:767px)
+{
+.our_dishes_content
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+.our_dishes_content_img1
+{
+    position: absolute;
+    z-index: 1;
+    left: 74%;
+    top: 36%;
+}
+.our_dishes_content_img img
+{
+     height :auto;
+     border-radius: 30px;
+}
+.our_dishes_content_para_child{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+.our_dishes_content_button{
+    font-size: small;
+}
+.our_dishes_content_para{
+    border-radius: 30px;
+}
+
+}
+
+/* <!-- our dishes content --> */
+
+/* <!-- healthy life ideas content section --> */
+.life_idea_page
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.life_idea_heading
+{
+    width: auto;
+    height: auto;
+    color:#F2634D ;
+    text-align: center;
+
+}
+.life_idea_main1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    background-clip: padding-box;
+
+}
+
+.life_idea1
+{
+    width: 370px;
+    height: auto;
+    box-sizing: border-box;
+    color: #6E2A36;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px black;
+    position: relative;
+
+}
+.life_idea1 img
+{
+    width: 370px;
+    height: auto;
+    transition: transform .2s;  /*Animation*/
+
+}
+.life_idea2{
+    width: 370px;
+    height:auto;
+    /* transition: transform .2s;  Animation */
+    overflow: hidden;
+    background-color: #FFFBF4;
+    box-sizing: border-box;
+
+}
+
+.life_idea3
+{
+    width: 370px;
+    height: 150px;
+    background-color: #FFFBF4;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+padding-top: 30px;
+box-sizing: border-box;
+
+}
+
+.life_idea1 img:hover
+{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.life_idea_heading1
+{
+    color: #6E2A36;
+    font-size: 35px;
+}
+.life_idea_heading2
+{
+    font-size: 35px;
+}
+
+.life_idea_button_like1
+{
+    width: 70px;
+    height: auto;
+    border:none;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 75%;
+    border-radius: 30px;
+    background-color: #6E2A36;
+    color: white;
+    text-align: center;
+}
+.life_idea_button_like2
+{
+    width: 70px;
+    height: auto;
+    border:none;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 75%;
+    border-radius: 30px;
+    background-color: #6E2A36;
+    color: white;
+    text-align: center;
+}
+.life_idea_button_like3
+{
+    width: 70px;
+    height: auto;
+    border:none;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 75%;
+    border-radius: 30px;
+    background-color: #6E2A36;
+    color: white;
+    text-align: center;
+} 
+.life_idea_button_like1 , .life_idea_button_like2 , .life_idea_button_like3
+{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:767px)
+{
+    .life_idea_heading_page
+    {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .life_idea_heading
+      {
+        width: 100%;
+      }
+    .life_idea_heading1
+      {
+        font-size: 30px;
+      }
+      .life_idea_heading2
+    {
+        font-size: 30px;
+    }
+    .life_idea_heading_page
+     {
+        flex-direction: column;
+     }
+     .life_idea_main1
+     {
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        align-items: center;
+     }
+}
+
+/* <!-- healthy life ideas content --> */
+
+
+/* <!-- fresh and ready perfect diet content section --> */
+
+.fresh_and_ready_perfect_diet_main1
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: #F6E9D6;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.fresh_and_ready_perfect_diet1
+{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    background-color:#F6E9D6 ;
+    box-sizing: border-box;
+
+}
+.fresh_and_ready_perfect_diet_main2
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color:#F6E9D6 ;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.fresh_and_ready_perfect_diet2
+{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    background-color:#F6E9D6 ;
+    box-sizing: border-box;
+
+}
+.fresh_and_ready_perfect_diet_main3_page
+{
+    width: 100%;
+    height: 250px;
+    background-color:#F6E9D6 ;
+    box-sizing: border-box;
+
+}
+.fresh_and_ready_perfect_diet1_img1 img
+{
+ width: 70px;
+ height: 70px;
+ margin-top: 50px;
+ background-color:#F6E9D6 ;
+
+
+}
+.fresh_and_ready_perfect_diet3
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 60px;
+    background-color:#F6E9D6 ;  
+    text-align: center;
+
+}
+.fresh_and_ready_perfect_diet_main3
+{
+    height: 300px;
+    width: 100%px;
+    color:#F2634D ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F6E9D6 ;
+
+
+}
+.fresh_and_ready_perfect_diet_main3_heading1
+{
+    height: 90px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 0;
+    color: #F2634D;
+    padding: 80px;
+    box-sizing: border-box;
+
+
+}
+.fresh_and_ready_perfect_diet_main3_heading1 img
+{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+@media screen and (max-width:767px)
+{
+    .fresh_and_ready_perfect_diet_main1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    font-size: small;
+    border: 1px solid green;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+    }
+.fresh_and_ready_perfect_diet_main2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    font-size: small;
+    overflow: hidden;
+
+}
+
+.fresh_and_ready_perfect_diet2
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+}
+.fresh_and_ready_perfect_diet_main3_page
+{
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+    padding-left: 0%;
+    margin: 0%;
+
+}
+.fresh_and_ready_perfect_diet_main3_heading1
+{
+    font-size: small;
+    /* padding-left: 0%; */
+}
+/* .fresh_and_ready_perfect_diet_main3_heading1 img
+{
+    width: 100%;
+    height: auto;
+} */
+.fresh_and_ready_perfect_diet1_img1 img
+{
+    width: 100%;
+    height: auto;
+}
+} 
+
+/* <!-- fresh and ready perfect diet -->
+
+
+/* footer section */
+.footer_main
+{
+   width: 100%;
+   height: auto;
+   display: flex;
+   background-color:#F3D8BB;
+   
+}
+.footer1
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+}
+.footer_contact
+{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.footer_usefullink
+{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+.footer2
+{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+}
+.footer_email{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.footer3
+{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+} 
+.footer4
+{
+    width:100%;
+    height: 70px;
+    background-color: #F3D8BB;
+    box-sizing: border-box;
+}
+.footer_usefullink li a{
+    text-decoration: none;
+    color: #F2634D;
+}
+.footer_usefullink li{
+    color: #75973A;
+}
+.footer_usefullink h2{
+    color: #6E2A36;
+}
+.footer_usefullink ul{
+    padding-left: 0px;
+}
+.footer_contact a{
+    color: #F2634D;
+    text-decoration: none;
+}
+.footer_contact a:hover{
+    color: #F2634D;
+    text-decoration: underline;
+}
+.footer_usefullink li a:hover{
+    color: #F2634D;
+    text-decoration: underline;
+}
+.footer_email input
+{   height: 35px;
+    width: 250px;
+   border-radius: 25px;
+   font-size: 20px;
+   cursor: pointer;
+   border: none;
+   background-color: #F4EDDB;
+   display: block;
+   margin-right: 50px;
+}
+
+.footer_button
+{    
+    height:35px;
+    width: 250px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #75973A;
+    border: none;
+    cursor: pointer;
+}
+.footer_button:hover
+{
+    opacity: 0.8;
+}
+.footer_home2,h2, p, .footer_home1, a,.footer_contact, .footer4,.footer2
+{
+  color: #6E2A36;
+}
+.footer4 a{
+    color: #F2634D;
+
+}
+.footer1,.footer2,.footer4{
+    padding: 20px;
+    background-clip: padding-box;
+}
+.footer3 img{
+    width: 50px;
+    height: auto;
+    padding-left: 70px;
+}
+
+
+
+@media screen and (max-width:767px)
+{
+    .footer_main
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .footer1
+    {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        font-size: small;
+    }
+    .footer2
+    {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+    }
+    .footer_contact
+    {
+        text-align: center;
+    }
+    .footer_usefullink
+    {
+         text-align: center;
+    }
+    .footer_usefullink li
+    {
+        list-style-position: inside;
+    }
+    .footer2 h2
+    {
+         text-align: center;
+    }
+   .footer_email input
+
+   {
+    width: 90%;
+    margin: 10px;
+   }
+   .footer_button
+   {
+       width: 90%;
+       margin: 10px;
+
+
+   }
+   .footer_email{
+    display: block;
+    overflow: hidden;
+   }
+   .span1_footer2 img
+   {
+    position: absolute;
+    z-index: 1;
+    top: 87%;
+   }
+   .footer3{
+    display: block;
+   }
+   .footer3 img{
+    display: block;
+    padding: 20px;
+    padding-left: 150px;
+   }
+   .p1_footer2{
+    text-align: center;
+   }
+
+}
+  
+/* footer section close */
+
+/* ///////////////////////////////////////////////// */
+
+/* shop section */
+.brunch_vegan_box_page
+{
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    background-clip: padding-box;
+}
+.brunch_vegan_box1
+{
+    height: auto;
+    width: 100%;
+    /* margin: 30px; */
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.brunch_vegan_box1 img{
+    height: auto;
+    width: 100%;
+    transition: transform .2s; /* Animation */
+
+}
+.brunch_vegan_box1 img:hover
+{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+.brunch_vegan_box2
+{
+    height: auto;
+    width: 100%;
+    line-height: 40px;
+    padding: 20px;
+    background-clip: padding-box;
+
+}
+.brunch_vegan_box2_child
+{
+    /* height: 550px;
+    width: 100%;
+    margin: 30px;
+    border: 1px solid red; */
+
+}
+.brunch_vegan_box2 h1{
+  color: #F2634D;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.brunch_vegan_box3
+{
+    color: #6E2A36;
+    font-size: 30px;
+
+}
+.button_brunch_vegan_box4
+{
+    height: 50px;
+    width: 100%;
+
+}
+.button_brunch_vegan_box4 button
+
+{
+    height: 30px;
+    width:70px;
+    margin-left: 25px;
+}
+.button_brunch_vegan_box5
+{
+    height: 50px;
+    width: 100%;
+}
+.button_brunch_vegan_box5 button
+{
+    height: 30px;
+    width:50px;
+    margin-left: 25px;
+}
+
+.button_brunch_vegan_box6
+{
+    height: 60px;
+    width: 100%;
+    display: inline;
+    position: relative;
+
+}
+.button_brunch_vegan_box8
+{
+    height: 60px;
+    width: 400px;
+    font-size: 15px;
+    background-color: #75973A;
+    opacity: 0.5;
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 95px;
+
+}
+.button_brunch_vegan_box6 i
+{
+    color: gray;
+    position: absolute;
+    top: 22px;
+    left: 510px;
+
+}
+.button_brunch_vegan_box7
+{
+    height:auto;
+    width:61px; 
+    border-radius: 25px;
+    background-color: #F4EDDB;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+}
+.button_brunch_vegan_box7 button{
+    background-color: #F4EDDB;
+    border: none;
+}
+
+.discount_box2
+{
+    width: 35px;
+    height: 15px;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+    top:20px;
+    margin-left: 15px;
+    background-color: #75973A;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+
+@media screen and (max-width:767px)
+{
+    .brunch_vegan_box_page
+    {
+        flex-direction: column;
+        
+        
+    }
+    .brunch_vegan_box1
+    {
+        flex-direction: column;
+    }
+    .brunch_vegan_box1 img
+    {
+    }
+    .brunch_vegan_box2
+    {
+        flex-direction: column;
+        width: 88%;
+        overflow: hidden;
+        font-size: smaller;
+        height: auto;
+    }
+    .brunch_vegan_box2 h1
+    {
+        font-size: small;
+    }
+    .brunch_vegan_box2 p
+    {
+        font-size:small;
+    }
+    .button_brunch_vegan_box4,.button_brunch_vegan_box5
+{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}.button_brunch_vegan_box8{
+    flex-direction: column;
+    width: 70%;
+
+}.button_brunch_vegan_box5{
+    flex-direction: column;
+}
+
+
+}
+
+/* <!--related product content section --> */
+
+#related_product_product_page
+{
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    color: #6E2A36;
+    background-color: #F9F2E4;
+    box-sizing: border-box;
+    padding: 20px;
+    background-clip: padding-box;
+    margin-top: 70px;
+}
+
+.related_product_main
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.related_product_child1
+{
+  width: 280px;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #F1E6D6;
+
+
+}
+.related_product_child2
+{
+  width: 100%;
+  height: auto;
+  transition: transform .2s; /* Animation */
+
+}
+
+.related_product_child2:hover
+
+{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  
+}
+
+.related_product_child2 img
+{
+  width: 280px;
+  height: auto;
+
+}
+.related_product_child3
+{
+    width: 100%;
+    height: auto;
+    background-color: #F0E7D8;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.discount_box3
+{
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+    top:20px;
+    margin-left: 15px;
+    background-color: #75973A;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
+.b__box1
+{
+    color: #6E2A36;
+}
+
+@media screen and (max-width:767px)
+{
+    .related_product_main
+    {
+       flex-direction: column;
+       height: 1700px;
+    }
+    .related_product_child1
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+
+
+/* <!--related product content section --> */
+
+
+/* shop section */
+
+/* ////////////////////////////////////////// */
+
+/* about section */
+/* about main content section */
+.aboutus_page
+{
+width: 100%;
+height: auto;
+position: relative;
+z-index: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 700px;
+}
+#aboutus_page1
+{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+} 
+@media screen and (max-width:767px)
+{
+    .aboutus_page
+    {
+        flex-direction: column;
+        width: auto;
+        position: relative;
+        z-index: 0;
+        height: auto;
+
+    }
+    #aboutus_page1
+    {
+        font-size: 35px;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        top: 27%;
+    }
+    .aboutus_page img
+    {
+        margin-bottom: auto;
+        height: auto;    
+}
+
+}
+
+
+/* about main content section */
+
+/* <!-- about service section --> */
+
+.about_top_quality1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #6E2A36;
+}
+
+.about_quality1 img
+{
+ width: 400px;
+ height: auto;   
+
+
+}
+.about_quality1
+{
+    width: 400px;
+    height: auto;
+margin-right: 5px;
+}
+.about_quality2{
+    width: 620px;
+    height: auto;
+    font-size: 18px;
+
+}
+.about_quality3{
+    width: 620px;
+    height: auto;
+    margin-left: 400px;
+    font-size: 18px;
+
+}
+.quality2_b1 h1{
+    margin: 0;
+}
+#about_top_quality1id{
+    display: none;
+}
+@media screen and (max-width:767px)
+{
+    .about_service_page
+{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+
+}
+
+.about_service_heading
+{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+
+}
+.about_service_heading2
+{
+    font-size: 18px;
+}
+.about_service_heart_img
+{
+    position: absolute;
+    z-index: 1;
+    left: 91%;
+}
+.about_top_quality1
+{
+    flex-direction:column;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about_quality1 img
+{
+    width: auto;
+    height: auto;
+}
+
+.about_quality1
+{
+    width: auto;
+    height: auto;
+
+}
+.about_quality2{
+    width: auto;
+    height:auto;
+
+}
+.about_quality3{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+
+}
+#about_top_quality1new{
+    display: none;
+}
+
+#about_top_quality1id{
+    display: block;
+    text-align: center;
+    
+}
+
+}
+
+
+/* <!-- about service section --> */
+
+
+
+/* <!-- about content --> */
+.about_content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-clip: content-box;
+    padding: 20px;
+
+}
+.about_content_child1
+{
+    width: 100%;
+    height:300px;
+    background-image: url(./dietshop-slider-pic1_about.png);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+.about_content_child2
+{
+    width: 100%;
+    height:300px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 30px;
+    background-color: #F0CFAE;
+}
+.about_content_child1 img
+{
+    width: 100%;
+    height:auto;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.about_content_child3{
+    width: 100%;
+    height:auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 80px;    
+}
+.b_about1
+{
+    color: #6E2A36;
+    display: block;
+    
+}
+.b_about2
+{
+    color: #F2634D;
+}
+.about_content_button_child3
+{
+    width: 200px;
+    height:50px;
+    border-radius: 50px;
+    background-color: #75973A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+}
+.about_content_button_child3:hover
+{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:767px)
+{
+    .about_content
+    {
+        flex-direction: column;
+        height:auto;
+        width: 100%;
+    }
+    .about_content_child2{
+        border-radius: 30px;
+    }
+    .about_content_child1{
+    border-radius: 30px;
+    }
+
+
+}
+
+
+
+/* <!-- about content --> */
+
+/* <!-- about service section --> */
+
+/* /////////////////////////////////////////// */
+
+/* blog section */
+
+.blog_heading1
+{
+    width: 100%;
+    height: 400px;
+    background-color: #F0CFAE;
+    font-size: 400%;
+    color: #F2654A;
+    display: table;
+    text-align: center;    
+    position: relative;
+    z-index: 0;
+}
+.blog_heading2
+{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.blog_heading2 span
+{
+    color: #F2634D;
+    word-spacing: 20px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 1;
+    left:45%;
+}
+.blog_heading2 i{
+    color: #F2634D;
+}
+.blog_heading2 a{
+    color: #F2634D;
+    cursor: pointer;
+}
+
+/* <!-- blog main content --> */
+
+.blog_main{
+    width: auto;
+    height: auto;
+    /* padding: 40px;
+    background-clip: content-box; */
+    
+}
+.blog_main_child{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.blog_main_childright,.blog_main_childleft{
+width: 100%;
+height: auto;
+margin:40px;
+box-shadow: 0px 1px 3px 3px lightgrey;
+
+}
+.blog_main_childimg , .blog_main_childimg img
+{
+    width:100%;
+height: auto;
+transition: transform .2s ease-in-out; /* Animation */
+overflow: hidden;
+}
+.blog_main_childimg:hover img{
+    transform: scale(1.5); /* 150% zoom */
+}
+/* #blog_main_childimgnew{
+    width:100%;
+    height: 414px;
+    border: 1px solid pink;
+    background-image: url(./dietshop-blog-pic2.png);
+    background-size: cover;
+    overflow: hidden !important;
+    transition: transform .2s ease-in-out; /* Animation */
+/* } */
+/* #blog_main_childimgnew:hover{
+    transform: scale(1.5); /* 150% zoom */
+/* }  */
+.blog_main_childtext{
+    width: 100%;
+    height: auto;
+    background-clip: padding-box;
+    padding: 22px;
+    box-sizing: border-box;
+}
+.blog_main_childread{
+    width: 100%;
+    height: auto;
+}
+.blog_main_childread i{
+    color: #6E2A36;
+    padding: 22px;
+    box-sizing: border-box;
+}
+.blog_main_childread i:hover
+{
+    color: #F2654A;
+}
+
+.blog_main_childread a{
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #F2654A;
+}
+.blog_main_childtext h3{
+    color: #6E2A36;
+    font-size: 25px;
+}
+@media screen and (max-width:767px){
+    .blog_main,.blog_main_child
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .blog_main_childright,.blog_main_childleft
+    {
+        width: 80%;
+    }
+    .blog_main_childimg 
+    {
+        width: 100%;
+        height: auto;
+    }
+#boxremove{
+    display: none;
+}
+
+}
+    
+
+/* blog section close */
+
+/* //////////////////////////////// */
+/* contact section */
+/* main content section */
+
+.contactus_page
+{
+width: 100%;
+height: auto;
+position: relative;
+
+}
+.contactus_page img{
+    width: 100%;
+    height: auto;
+
+}
+.contactus_page2{
+    width:100%;
+  height: auto;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  z-index:2;
+  top: 230px;
+}
+
+/* main content section close */
+@media screen and (max-width:767px)
+{
+    .contactus_page{
+position: relative;
+    }
+
+    .contactus_page2{
+        font-size: 50px;
+        position: absolute;
+        top:50px;
+    }
+} 
+
+
+/* content section */
+
+.main_box
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #F3D8BB;
+  padding-top: 80px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-clip: padding-box;
+
+}
+
+.contactus_form
+{
+    width: 100%;
+    height: auto;
+
+}
+
+.content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-clip: padding-box;
+  box-sizing: border-box;
+
+
+}
+
+.contactinfo_localization
+{
+    width:100%;
+    height: auto;
+    display: flex;
+
+}
+
+.contact_info, .localization
+
+{
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    margin: 10px;
+
+
+}
+.choose_us
+{
+    width: 100%;
+    height: auto;
+    /* position: relative;
+    z-index: 0; */
+    background-color: #F3D8BB;
+    box-sizing: border-box;
+    margin: 10px;
+
+}
+
+#form_heading
+{
+    font-size: 40px;
+    color: #F2654A;
+}
+.input1
+{
+    width: 100px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+input[type=text]
+{
+    width: 600px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F4EDDB;    
+}
+textarea
+{
+    width: 600px;
+    height: 100px;
+    border:none;
+    border-radius: 30px;
+   margin-top: 10px;
+   background-color: #F4EDDB;
+}
+.form_button
+{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    border: none;
+    background-color: #75973A;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.form_button:hover
+{
+    opacity: 0.8;
+}
+.info1
+{
+    color: #6E2A36;
+    font-size: 30px;
+}
+.info2
+{
+    color: #6E2A36;
+    font-size: 15px;
+
+}
+.info3
+{
+    color: #F2654A;
+}
+.info3:hover
+{
+    text-decoration: underline;
+    color: #F2654A;
+    cursor: pointer;
+}
+.info4, .info5, .info6, span 
+{
+    color: #6E2A36;
+
+}
+.info7 ,.info8,.info9
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 50%;
+    /* position: absolute;
+    z-index: 1; */
+    background-color: #75973A;
+    /* top: 100px; */
+    margin-right: 30px;  
+}
+.info10{
+    width: 100%;
+    height: auto;
+    color: #6E2A36;
+    /* margin: 38px; */
+    /* margin: 40px 20px 20px 80px; */
+}
+.choose_us i{
+    color: white;
+    box-sizing: border-box;
+    padding: 3px;
+
+}
+.choose1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 50px 0px 50px 0px;
+}
+.choose2{
+    height: auto;
+    width: auto;
+}
+
+.info11
+{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+@media screen and (max-width:767px)
+{
+
+     .main_box
+     {
+        flex-direction: column;
+        height: auto;
+     }
+     .contactus_form
+     {  flex-direction: column;
+        height: auto;
+     }
+     .content
+      {
+        flex-direction: column;
+        height:auto;
+        padding: 0;
+      }
+      .input1
+      {
+        width: 100%;
+
+      }
+      input[type=text]
+      {
+        width: 100%;
+      }
+      textarea
+      {
+        width: 98%;
+        overflow: hidden;
+      }
+      .form_button
+      {
+        width: 100%;
+      }
+     .contactinfo_localization
+     {
+        flex-direction: column;
+        height: auto;
+      }
+      .contact_info, .localization
+       {
+        height: auto;
+        margin: 0;
+       }
+       .choose_us
+       {
+        margin-left: 0;
+        font-size: small;
+        height: auto;
+       }
+}
+
+
+
+
+/* content section close */
+
+
